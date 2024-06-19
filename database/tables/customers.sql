@@ -1,0 +1,15 @@
+CREATE TABLE `7dc_shop_manager`.`customers` (
+  `id` INT NOT NULL,
+  `f_name` VARCHAR(45) NULL,
+  `l_name` VARCHAR(45) NULL,
+  `m_name` VARCHAR(45) NULL,
+  `street_1` VARCHAR(45) NULL,
+  `street_2` VARCHAR(45) NULL,
+  `city` VARCHAR(45) NULL,
+  `state` VARCHAR(45) NULL,
+  `zipcode` INT NULL,
+  `zip_4` INT NULL,
+  `phone` VARCHAR(10) NULL,
+  `is_text` TINYINT NULL,
+  `email` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
